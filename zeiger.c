@@ -18,16 +18,16 @@ int main(void){
   printf("var1 (Variable) = %d (Inhalt) = %p (%%p - Adresse) = %d (*iPointer - Inhalt)\n", var1, iPointer, *iPointer);
   *iPointer = 20;// neuer Inhalt wird der Adresse zugewiesen
   printf("var1 (Variable) = %d (Inhalt) = %p (%%p - Adresse) = %d (*iPointer - Inhalt)\n", var1, iPointer, *iPointer);
-  int iPointer2 = &var2;
-  int iPointer3 = &var3;
+  int *iPointer2 = &var2;
+  int *iPointer3 = &var3;
   // Variable - Inhalt - Adresse
   
   printf("var2 (Variable) = %d (Inhalt) = %p (Adresse)\n", var2, iPointer2);
   printf("var3 (Variable) = %d (Inhalt) = %p (Adresse)\n", var3, iPointer3);
   // Adresse - Inhalt
-  printf("%p (Adresse +1) = %d\n", iPointer2+1, iPointer2+1);
-  printf("%p (Adresse)    = %d\n", iPointer2, iPointer2);
-  printf("%p (Adresse -1) = %d\n", iPointer2-1, iPointer2-1);
+  printf("%p (Adresse +1) = %d\n", iPointer2+1, *iPointer2+1);
+  printf("%p (Adresse)    = %d\n", iPointer2, *iPointer2);
+  printf("%p (Adresse -1) = %d\n", iPointer2-1, *iPointer2-1);
   // Variable - Inhalt - Adresse
   printf("var1 (Variable) = %d (Inhalt) = %p (Adresse)\n", var1, iPointer);
   printf("var2 (Variable) = %d (Inhalt) = %p (Adresse)\n", var2, iPointer2);

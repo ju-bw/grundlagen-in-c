@@ -1,13 +1,12 @@
 # ju -- https://bw1.eu -- 5-Jan-19  -- Makefile
-# Ubuntu
-# gcc -v // Version 7.2
-# sudo apt -y install gcc-7 g++-7 
+# Win10
+# gcc -v // Version 7.1.0
 #
 TARGETS=\
-	hallo-in-c.x \
-	halloC-v02.x \
-	hallo-in-c++.x \
-	halloC++-v02.x \
+	hallo-in-c.exe \
+	halloC-v02.exe \
+	hallo-in-c++.exe \
+	halloC++-v02.exe \
 # 
 CC:=gcc
 CLIBS=-lz funktionen.c funktionen.h -lm
@@ -27,5 +26,4 @@ all: $(TARGETS)
 	$(CC) $(CFLAGS) -o $@ $< $(CLIBS)
 
 clean:
-  #rm -f *.o
 	rm *.exe
