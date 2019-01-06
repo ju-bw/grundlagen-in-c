@@ -1,0 +1,3 @@
+Name: kein Name - Alter: -1 - Ort: kein Ort
+Name: Willi - Alter: 72 - Ort: Wuppertal
+Name: Olek - Alter: 10 - Ort: Solingen

@@ -1,4 +1,4 @@
-// ju -- https://bw1.eu -- 26-Dez-18  -- struct-led.c 
+// ju -- https://bw1.eu -- 6-Jan-19  -- struct-led.c 
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
@@ -10,7 +10,7 @@ struct ledTyp{// neuer Datentyp
 	bool state;
 };
 #define GREEN 1;
-#define RED 1;
+#define RED   2;
 int main(void){
 	// structs - Strukturen
 	printf("structs - Strukturen\n");

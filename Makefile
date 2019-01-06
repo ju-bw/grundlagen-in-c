@@ -1,4 +1,4 @@
-# ju -- https://bw1.eu -- 5-Jan-19  -- Makefile
+# ju -- https://bw1.eu -- 6-Jan-19  -- Makefile
 # Win10
 # gcc -v // Version 7.1.0
 #
@@ -14,9 +14,11 @@ TARGETS=\
 	test-bibliothek.exe \
 	zeiger.exe \
 	class-led.exe \
+	class-person-v02.exe \
 	class-person.exe \
 	hallo-in-c++.exe \
 	halloC++-v02.exe \
+	struct-person.exe \
 # 
 CC:=gcc
 CLIBS=-lz funktionen.c funktionen.h -lm

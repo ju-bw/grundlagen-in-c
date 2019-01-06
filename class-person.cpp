@@ -1,4 +1,4 @@
-// ju -- https://bw1.eu -- 26-Dez-18  -- class-person.cpp
+// ju -- https://bw1.eu -- 6-Jan-19  -- class-person.cpp
 #include <iostream>
 #include <iomanip>
 #include <cstdio>

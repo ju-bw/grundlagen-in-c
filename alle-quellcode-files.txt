@@ -14,9 +14,11 @@ struct-led.exe \
 test-bibliothek.exe \
 zeiger.exe \
 class-led.exe \
+class-person-v02.exe \
 class-person.exe \
 hallo-in-c++.exe \
 halloC++-v02.exe \
+struct-person.exe \
 
 ======================
 
