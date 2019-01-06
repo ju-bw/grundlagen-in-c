@@ -1,8 +1,8 @@
-﻿ju -- https://bw1.eu -- 5-Jan-19 -- alle-quellcode-files.txt
+﻿ju -- https://bw1.eu -- 6-Jan-19 -- alle-quellcode-files.txt
 
 in Makefile speichern:
 ======================
-structs.exe \
+
 array.exe \
 datentypen.exe \
 dummy.exe \
@@ -10,9 +10,11 @@ hallo-in-c.exe \
 halloC-v02.exe \
 lokal-global-var.exe \
 string.exe \
-
+struct-led.exe \
 test-bibliothek.exe \
 zeiger.exe \
+class-led.exe \
+class-person.exe \
 hallo-in-c++.exe \
 halloC++-v02.exe \
 

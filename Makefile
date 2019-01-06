@@ -3,18 +3,20 @@
 # gcc -v // Version 7.1.0
 #
 TARGETS=\
+	array.exe \
+	datentypen.exe \
+	dummy.exe \
 	hallo-in-c.exe \
 	halloC-v02.exe \
+	lokal-global-var.exe \
+	string.exe \
+	struct-led.exe \
+	test-bibliothek.exe \
+	zeiger.exe \
+	class-led.exe \
+	class-person.exe \
 	hallo-in-c++.exe \
 	halloC++-v02.exe \
-	dummy.exe \
-	lokal-global-var.exe \
-  test-bibliothek.exe \
-	string.exe \
-	zeiger.exe \
-	datentypen.exe \
-	structs.exe \
-  array.exe \
 # 
 CC:=gcc
 CLIBS=-lz funktionen.c funktionen.h -lm
