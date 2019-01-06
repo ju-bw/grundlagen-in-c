@@ -1,9 +1,10 @@
-// ju -- https://bw1.eu -- 6-Jan-19  -- class-person-v02.cpp
+// ju -- https://bw1.eu -- 6-Jan-19  -- strukt-person.cpp
 #include <string>
 #include <iostream>
 #include <sstream> 
 #include <fstream> 
 using namespace std;
+
 class Person{
   private:
     string name_;
@@ -19,19 +20,22 @@ class Person{
     };  
 };
 int main(){
+  // Zugriff
   Person p1 {};
   Person p2 {"Willi", 72, "Wuppertal"};
-  // Bildschirm
+
+  // Ausgabe: Bildschirm
   p1.print(cout); 
   p2.print(cout); 
-  // Datei
+
+  // Ausgabe: Datei
   ofstream datei {"personen.txt"};
   p1.print(datei); 
   p2.print(datei);
   cout << "file personen.txt wurde angelegt." << "\n";
 
-  // String (auto. Test)
-  ostringstream oss{}; // schreibt in einen string
+  // Ausgabe: String (auto. Test)
+  ostringstream oss{}; 
   p1.print(oss);
   //p2.print(oss);
   if(oss.str() == "Name: kein Name - Alter: -1 - Ort: kein Ort\n"){
